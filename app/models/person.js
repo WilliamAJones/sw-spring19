@@ -18,7 +18,7 @@ export default class Person {
         <h3>${this.name}</h3>
         <p>Hair: ${this.hairColor}</p>
         <p>Eyes: ${this.eyeColor}</p>
-        <p>Movies: ${this.movies}</p>
+        <p>Movies appeared in: ${this.movies}</p>
         `
     }
 }

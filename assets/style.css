@@ -1,15 +1,54 @@
-.male {
-    color: blue
+body{
+    font-family: 'Finger Paint', cursive;
+    font-size:20px ;
+    background-image: url('https://images.wallpaperscraft.com/image/starry_sky_milky_way_stars_glitter_space_118653_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    color:white;
+    text-shadow: 2px 2px black;
+}
+.active-card{
+    background-color:rgba(128, 128, 128, 0.452);
+    align-items: center;
+    text-shadow: 1px 1px black;
+    /* max-height: 100%; */
+    border-top-color:rgba(128, 0, 128, 0.5);
+    border-right-color: rgba(128, 0, 128, 0.5);
+    border-right-style:solid;
+    border-top-style:solid;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+.card{
+    background-color:rgba(128, 0, 128, 0.315);
+    /* align-items: center!important; */
+    text-shadow: 1px 1px black;
+    /* max-height: 100%; */
+    border-top-color:rgba(128, 0, 128, 0.466);
+    border-right-color: rgba(128, 0, 128, 0.466);
+    border-right-style:solid;
+    border-top-style:solid;
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
 }
 
-.female {
-    color: pink
+#buttons, #p-buttons {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
 }
-
-.n\/a, .none {
-    color: slategray
+.sw{
+    letter-spacing: 8px;
+    color: yellow;
+    text-shadow: 3px 3px black;
+    font-weight: bolder;
 }
-
-.hermaphrodite {
-    color: burlywood
+h1{
+    letter-spacing: 25px;
+    color: yellow; 
+    text-shadow: 3px 3px black;
+    font-weight: bolder;
 }

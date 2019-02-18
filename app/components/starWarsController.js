@@ -13,8 +13,8 @@ function drawPeople() {
     //handles people list
     document.getElementById('sw-people').innerHTML = template
     document.getElementById('buttons').innerHTML = `
-    <button ${_swService.Previous ? '' : 'disabled'} onclick="app.controllers.swController.getPeople('${_swService.Previous}')">Previous</button>
-    <button ${_swService.Next ? '' : 'disabled'} onclick="app.controllers.swController.getPeople('${_swService.Next}')">Next</button>
+    <button ${_swService.Previous ? '' : 'disabled'} onclick="app.controllers.swController.getPeople('${_swService.Previous}')">Previous Pals</button>
+    <button ${_swService.Next ? '' : 'disabled'} onclick="app.controllers.swController.getPeople('${_swService.Next}')">More Pals</button>
     `
 }
 
@@ -37,7 +37,7 @@ export default class StarWarsController {
         _swService.getAllApiPeople(url)
     }
     getPerson(url) {
-        debugger
+        // debugger
         _swService.getOneApiPerson(url)
     }
 

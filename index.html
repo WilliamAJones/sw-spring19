@@ -5,18 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
-    <title>StarPals</title>
+    <title>StarPals'nPlanets</title>
 </head>
 
 <body>
+    <section class="container-fluid">
+        <div class="top row">
+            <div class="col-12 d-flex justify-content-center">
+                <h1><i>STAR PALS</i></h1>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <h4>Welcome to the ultimate list of <span class="sw">Star Pals</span> and <span class="sw">Star Pals Planets</span>.</h4>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <h6> Please select your favorite <span class="sw">Star Pal</span> or <span class="sw">Star Pal Planet</span> to find out more information!</h6>
+            </div>
+        </div>
+        </div>
 
-    <main>
-        <div id="buttons"></div>
-        <ul id="sw-people"></ul>
-        <hr>
-        <div id="active-person"></div>
-    </main>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-center" id="buttons"></div>
+                <h4><span class="sw"><i><u>STAR PALS</span></u></i></h4>
+            </div>
+            <div class="col-12 col-md-6">
+                <ul class="card" id="sw-people"></ul>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="active-card" id="active-person"></div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-center" id="p-buttons"></div>
+                <h4><span class="sw"><u><i>STAR PALS PLANETS</u></i></span></h4>
+            </div>
+            <div class="col-12 col-md-6">
+                <ul class="card" id="sw-planets"></ul>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="active-card" id="active-planet"></div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- EXTERNAL LIBRARIES -->
